@@ -1,0 +1,47 @@
+.headBar {
+        height: 20px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: rgb(38, 49, 102);
+        color: white;
+        text-align: center;
+        z-index: 1;
+}
+
+.leftBar {
+        width: 20px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background-color: rgb(38, 49, 102);
+        z-index: 1;
+}
+
+.rightBar {
+        width: 20px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100%;
+        background-color: rgb(38, 49, 102);
+        z-index: 1;
+}
+
+.footerBar {
+        height: 20px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(38, 49, 102);
+        color: white;
+        text-align: center;
+        z-index: 1;
+}
+
+h6 {
+        margin-top: 5px;
+}

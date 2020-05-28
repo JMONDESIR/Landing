@@ -1,0 +1,56 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+body, html {
+        margin: 20px;
+        font-size: 18px;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        line-height: 1.8em;
+        color: rgb(63, 63, 63);
+}
+
+.holder {
+        text-align: center;
+}
+
+.lg-textbox {
+        text-align: center;
+        vertical-align: middle;
+}
+
+.img-op {
+        opacity: 0.2;
+}
+
+.contact-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+.icon {
+        color : rgb(38, 49, 102);
+        text-decoration: none;
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.2s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+      }
+
+      .icon:hover, .icon:focus, .icon:active {
+        color : rgb(38, 49, 102);
+        text-decoration: none;
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+      }
